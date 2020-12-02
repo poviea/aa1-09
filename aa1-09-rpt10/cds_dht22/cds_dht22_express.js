@@ -27,7 +27,7 @@ var Sensor = mongoose.model("Sensor", iotSchema); // sensor data model
 // Web routing addrebss
 app.get("/", function (req, res) {
   // localhost:3030/
-  res.send("Hello Arduino IOT: express server by AA13!");
+  res.send("Hello Arduino IOT: express server by AA09!");
 });
 // find all data & return them
 app.get("/", function (req, res) {
